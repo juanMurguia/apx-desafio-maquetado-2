@@ -1,0 +1,87 @@
+.form input,
+.form textarea,
+.form button {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.form input,
+.form textarea,
+.form button {
+  color: #fff;
+  width: 100%;
+  resize: none;
+  border: none;
+  padding-inline: 2rem;
+}
+
+.form input,
+.form textarea,
+.form button {
+  background-color: #393E46;
+  border-radius: 1rem;
+}
+
+.form__fieldset {
+  margin-bottom: 3rem;
+}
+
+.form label {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.form textarea {
+  height: auto;
+  padding-block: 2rem;
+}
+
+.form button {
+  background-color: #00ADB5;
+  color: #000;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.5rem 4rem;
+}
+
+.form button:hover{
+background-color: aqua;
+}
+
+.form .good,
+.form .error {
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-block: 2rem;
+}
+.form .good {
+  background: green;
+}
+
+.form .error {
+  background-color: brown;
+}
+
+@media screen and (min-width: 960px) {
+  .contact__container {
+    display: flex;
+    align-items: start;
+    gap: 10rem;
+  }
+  .form {
+    flex-grow: 1;
+  }
+
+  .form label{
+    font-size: 1rem;
+  }
+
+  .form button{
+    width: auto;
+  }
+}

@@ -1,0 +1,30 @@
+.contact {
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+  }
+  
+  .contact__container {
+    padding: 2rem 4rem 8rem 4rem;
+  }
+  
+  .contact h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-block: 5rem;
+    color:#fff;
+  }
+  
+  @media screen and (min-width: 960px) {
+    .contact__container {
+      display: flex;
+      align-items: start;
+      gap: 10rem;
+      padding-block: 8rem;
+    }
+  
+    .contact h2 {
+      font-size: 4rem;
+      font-weight: bolder;
+    }
+  }

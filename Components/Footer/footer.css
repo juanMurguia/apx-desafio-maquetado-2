@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .redes, .links{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+}
