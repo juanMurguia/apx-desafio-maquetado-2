@@ -93,7 +93,7 @@ async function main() {
       `Full Stack <span>Developer Jr</span>`,
       allData.bio.srcIMG2
     );
-    About(document.body, allData.bio);
+    //About(document.body, allData.bio);
     Info(document.body, allData);
     Contact(document.body);
   }
