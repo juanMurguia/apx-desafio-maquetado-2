@@ -36,7 +36,7 @@ function createAssets(data, assets) {
     srcIMG2: imgHero.fields.file.url,
   };
 
-  console.log(imgAbout.fields.file.url);
+  console.log(data.bio);
 
   ///////////////////////////////////////////
 
@@ -93,7 +93,12 @@ async function main() {
       `Full Stack <span>Developer Jr</span>`,
       allData.bio.srcIMG2
     );
-    //About(document.body, allData.bio);
+    About(
+      document.body,
+      allData.bio.srcIMG,
+      allData.bio.title,
+      allData.bio.description.content[0].content[0].value
+    );
     Info(document.body, allData);
     Contact(document.body);
   }

@@ -1,12 +1,12 @@
-function About(container, allData) {
+function About(container, srcIMG2, title, description) {
   const sectionBio = document.createElement("section");
   sectionBio.classList.add("bio");
   sectionBio.innerHTML = `
     <div class="container bio__container">
-      <img src="${allData.srcIMG}" alt="Bio picture">
+      <img src="${srcIMG2}" alt="Bio picture">
       <div class="bio__content">
-        <h2>${allData.title}</h2>
-        <p>${allData.description.content[0].content[0].value}</p>
+        <h2>${title}</h2>
+        <p>${description}</p>
       </div>
       </div>
     `;
