@@ -45,7 +45,3 @@ function Info(container, allData) {
     });
   }
 }
-
-// ShowInfo(document.body);
-// Card(document.querySelector(".show-info__card-list"));
-// Card(document.querySelector(".show-info__card-list"));

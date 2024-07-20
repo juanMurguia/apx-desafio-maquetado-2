@@ -36,8 +36,6 @@ function createAssets(data, assets) {
     srcIMG2: imgHero.fields.file.url,
   };
 
-  console.log(data.bio.srcIMG2);
-
   ///////////////////////////////////////////
 
   for (let i = 0; i < data.services.length; i++) {
